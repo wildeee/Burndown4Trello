@@ -1,0 +1,19 @@
+[
+	{
+		"url_trello": ""
+
+		,"data_inicial": ""
+
+		,"data_final": ""
+
+		,"dias_sem_jornada": []
+
+		,"legenda_burndown": "NOME DO SISTEMA"
+
+		,"nome_label_burndown": "BURN"
+
+		,"nome_da_equipe": "TÍTULO DO BURNDOWN"
+
+		,"width": "80%"
+	}
+]

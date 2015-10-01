@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>BURNDOWN</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="/DEPENDENCIES/style.css">
+		<script type="text/javascript" src="/MODULES/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="/MODULES/highcharts/scripts/highcharts.js"></script>
+		<script type="text/javascript" src="/DEPENDENCIES/animation.js"></script>
+		<script type="text/javascript" src="/DEPENDENCIES/script.js"></script>
+		<script type="text/javascript" src="/DEPENDENCIES/burndown/dataAdapter.js"></script>
+	</head>
+	<body>
+ 		<div id="header">
+			<div id="crew-container">
+				<h1 id="crew-name"></h1>
+			</div>
+		</div>
+		<div id="errorContainer">
+			<div class="close-container">
+				<span class="btn-close" close-target="errorContainer">
+					×
+				</span>
+			</div>
+			<div id="errorMessages"></div>
+		</div>
+		<div id="content">
+			<a id="link-trello" target="_blank">
+				<div id="burndown"></div>
+			</a>
+		</div>
+		<!-- <div id="indicadores-container">
+			<embed id="indicadores" src="http://192.168.199.98:8081/Charts/GetChart?chart=GAZIN_INDICADORES_PORTAL&query=QRY_SERRANO_IND_DEV_ORGANIZACIONAL"/>
+		</div> -->
+	</body>
+</html>

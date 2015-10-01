@@ -1,0 +1,30 @@
+{
+  "name": "BurnSescoop",
+  "version": "1.0.0",
+  "description": "Burndown do projeto SESCOOP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wildeee/BurnSescoop.git"
+  },
+  "keywords": [
+    "burndown",
+    "sescoop"
+  ],
+  "author": "Wilde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildeee/BurnSescoop/issues"
+  },
+  "homepage": "https://github.com/wildeee/BurnSescoop",
+  "dependencies": {
+    "ascii-images": "^0.1.1",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "highcharts": "0.0.9",
+    "jquery": "^2.1.4"
+  }
+}

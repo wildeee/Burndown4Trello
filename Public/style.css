@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	font-weight: bolder;
+	position: relative;
+}
+
+#crew-container h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+#crew-container {
+	width: 80%;
+	border-radius: 8px;	
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#header {
+	margin-bottom: 30px;
+	margin-top: 8px;
+}
+
+#link-trello {
+	text-decoration: none;
+}
+
+#content {
+	margin: 0 auto;
+}
+
+
+#indicadores-container {
+	text-align: center;
+}
+
+#indicadores {
+	width: 820px; 
+	margin: 0 auto;
+	text-align: left;
+	height: 200px;
+}
+
+#errorContainer {
+	background-color: #FFF9A8;
+	width: 50%;
+	margin: 0 auto;
+	font-size: small;
+	font-weight: normal;
+	border-radius: 10px;
+	box-shadow: 0 0 40px #FF0000;
+	margin-bottom: 40px;
+	display: none;
+	padding-bottom: 27px;
+	padding-top: 0;
+	padding-left: 25px;
+}
+
+#errorMessages p{
+	line-height: 18px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-right: 25px;
+	text-align: justify;
+}
+
+.close-container {
+	width: 100%;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.btn-close {
+	font-family: arial;
+	text-transform: uppercase;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #5E5E5E;
+	font-weight: bolder;
+	line-height: 20px;
+}
+
+.btn-close:hover {
+	text-shadow: 0 0 15px #000000;
+	cursor: pointer;
+}

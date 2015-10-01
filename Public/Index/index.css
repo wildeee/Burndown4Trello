@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	background-color: #272C2E;
+	font-family: verdana;
+}
+
+.content {
+	background-color: #FEFEFE;
+	margin: 20px;
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 600px;
+}
+
+.title {
+	text-align: center;
+	background-color: #399647;
+	width: 50%;
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.content .title h1 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.item-list .listed-item {
+	width: 100%;
+	background-color: #35C3F2;
+	display: none;
+	padding: 20px;
+	border-radius: 8px;
+	overflow: auto;
+	
+}
+
+.item-list .listed-item:hover {
+	box-shadow: 0 0 10px #000000;
+}
+
+.item-list .listed-item h3 {
+	margin: 0;
+	font-weight: bold;
+	float: left;
+}
+
+.item-list a {
+	color: inherit;
+	text-decoration: inherit;
+	display: block;
+	width: 80%;
+	margin: 0 auto 10px auto;
+}
+
+.item-list .listed-item.burn-item {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9adef9+1,74d2f7+40,5cc4ed+62,2ab0ed+100 */
+	background: #9adef9; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #9adef9 1%, #74d2f7 40%, #5cc4ed 62%, #2ab0ed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,#9adef9), color-stop(40%,#74d2f7), color-stop(62%,#5cc4ed), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #9adef9 1%,#74d2f7 40%,#5cc4ed 62%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #9adef9 1%,#74d2f7 40%,#5cc4ed 62%,#2ab0ed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #9adef9 1%,#74d2f7 40%,#5cc4ed 62%,#2ab0ed 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #9adef9 1%,#74d2f7 40%,#5cc4ed 62%,#2ab0ed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9adef9', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.item-list .listed-item.indicador-item {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+23,a8a8a8+38,000000+100 */
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e2e2e2 0%, #dbdbdb 23%, #a8a8a8 38%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e2e2e2), color-stop(23%,#dbdbdb), color-stop(38%,#a8a8a8), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #e2e2e2 0%,#dbdbdb 23%,#a8a8a8 38%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #e2e2e2 0%,#dbdbdb 23%,#a8a8a8 38%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #e2e2e2 0%,#dbdbdb 23%,#a8a8a8 38%,#000000 100%); /* IE10+ */
+background: linear-gradient(135deg,  #e2e2e2 0%,#dbdbdb 23%,#a8a8a8 38%,#000000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.item-list .listed-item .glyphicon {
+	margin-right: 10px;
+}
