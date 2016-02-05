@@ -23,7 +23,7 @@
 
 Para clonar o projeto, abra no cmd o diretório que irá armazenar o projeto, e execute os comandos
 ```sh
-$ git clone http://ci.jus.db1.com.br/sescoop/Burndown4Trello.git
+$ git clone https://github.com/wildeee/Burndown4Trello.git
 $ cd Burndown4Trello
 $ npm install
 $ node app.js
