@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/wildeee/BurnSescoop",
   "dependencies": {
+    "accepts": "^1.3.3",
     "ascii-images": "^0.1.1",
     "bootstrap": "^3.3.5",
     "express": "^4.13.3",
     "highcharts": "0.0.9",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "negotiator": "^0.6.1"
   }
 }

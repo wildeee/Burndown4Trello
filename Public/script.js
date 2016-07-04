@@ -368,7 +368,7 @@ var getTrelloData = function(callback){
 var getUrlTrelloApi = function(){
     var board_id = config.sprintConfig.url_trello.split('/')[4];
     var urlString = "https://api.trello.com/1/board/"+ board_id +"?key="+ config.sysConfig.key_trello +"&cards=open&lists=open&card_checklists=all&token=" + config.sysConfig.token_trello
-    console.log(urlString);
+    // console.log(urlString);
     return urlString;
 };
 
@@ -378,7 +378,6 @@ var addConfig = function(){
 	changeCssProperty('#crew-container', 'background-color', '#' + config.sysConfig.cor_de_fundo_do_titulo);
     changeCssProperty('#crew-name', 'color', '#' + config.sysConfig.cor_fonte);
     changeCssProperty('#content', 'width', config.sprintConfig.width);
-    console.log(config.sprintConfig.width);
     $('#crew-name').append(config.sysConfig.nome_da_equipe);
     $('#link-trello').attr('href', config.sprintConfig.url_trello);
 };
