@@ -126,7 +126,7 @@ var checkNotWorkingDays = function(cards, days){ // Joga os cards de dias sem jo
     var dayIterator;
     returnCards.forEach(function(card){
         days.forEach(function(day){
-            if (!day.work && card.due.date.equals(day.day)){ // Se o card for de dia sem trabalho
+            if (!day.work && card.due.hasDue && card.due.date.equals(day.day)){ // Se o card for de dia sem trabalho
                 dayIterator = $.inArray(day, days);
                 while (!days[dayIterator].work){
                     dayIterator--;
@@ -170,7 +170,7 @@ var calculateRealizedPoints = function(points, days, doneCards){
     workDays.forEach(function(day){
         if (day <= new Date().toMidnight()){
             doneCards.filter(function(card){
-                return card.due.date.equals(day);
+                return card.due.hasDue && card.due.date.equals(day);
             }).forEach(function(card){
                 remainingPoints -= card.due.hasDue ? card.name.getPoints() : getDonePointRate(card);
             });            
